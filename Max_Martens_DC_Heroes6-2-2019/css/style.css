@@ -1,0 +1,227 @@
+.clearfix
+{
+    clear: both;
+}
+
+body
+{
+    margin: 0%;
+    background-color: rgb(178, 181, 182);
+    overflow: hidden;
+}
+
+h1
+{
+    text-align: center;
+    font-size: 45px;
+}
+
+ul
+{
+    font-size: 30px;
+    display: inline;
+}
+
+p
+{
+    font-size: 25px;    
+    text-align: center;
+    display: inline;
+}
+
+#main-container
+{
+    width: 1920px;
+    margin: 0 auto;
+    color: white;
+}
+
+#footer
+{
+    width: 1920px;
+    background-color: rgb(69, 69, 70);  
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color: white;
+}
+
+#header
+{
+    background-color: rgb(69, 69, 70);
+    width: 1920px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin: 0 auto;
+}
+
+#header a:hover
+{
+    background-color: rgb(69, 69, 70);
+}
+
+#header img
+{
+    width: 267px;
+    padding-left: 30px;
+    border-radius: 50%;
+}
+
+#header img:hover
+{
+    background-color: rgb(241, 104, 104);
+    color: white;
+}
+
+#main-left
+{
+    float: left;
+    width: 500px;
+    background-color: rgb(134, 133, 133);
+    height: 742px;
+    overflow-y: scroll;
+}
+
+#main-center
+{
+    float: left;
+    width: 600px;
+    background-color: rgb(134, 133, 133);
+    height: 742px;
+    overflow-y: scroll;
+}
+
+#main-right
+{
+    float: left;
+    width: 820px;
+    background-color: rgb(134, 133, 133);
+    height: 742px;
+    overflow-y: scroll;
+    text-align: center;
+}
+
+.hero-image
+{
+    height: 350px;
+    width: 269px;
+    float: left;
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+a:hover
+{
+    background-color: rgb(241, 104, 104);
+    border-radius: 20px;
+}
+
+.hero-container
+{
+    background-image: url(../images/blue.jpg);
+    height: 350px;
+    margin-bottom: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.hero-container:nth-child(odd)
+{
+    background-image: url(../images/blue2.jpg);
+}
+
+.hero-container:last-child
+{
+    margin-bottom: 0px;
+}
+
+.team-image
+{
+    height: 30px;
+    width: 40px;
+}
+
+.hero-name
+{
+    font-size: 40px;
+}
+
+.MoreInfo
+{
+    font-size: 25px;
+    background-color: rgb(248, 26, 26);
+    border-radius: 20px;
+    width: 120px;
+    position: absolute;
+    top: 290px;
+    right: 87px;
+}
+
+.heroDescription
+{
+    font-size: 15px;
+}
+
+.hero-image-Description
+{
+    margin-right: 20px;
+    margin-left: 15px;
+    height: 350px;
+    width: 269px;
+    margin-bottom: 15px;
+}
+
+.hero-power
+{
+    display: block;
+    text-align: center;
+    font-size: 30px;
+}
+
+.hero-description
+{
+    margin-right: 8px;
+}
+
+.submit
+{
+    background-color: rgb(248, 26, 26);
+    display: block;
+    width: 200px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+#TextBox
+{
+    width: 600px;
+    height: 100px;
+}
+
+button:hover
+{
+    background-color: rgb(241, 104, 104);
+}
+
+.rating-image
+{
+    width: 337px;
+    height: 72px;
+}
+
+.heroes-count
+{
+    font-size: 40px;
+}
+
+input[type=radio] 
+{
+    width:  5%;
+    height: 2em;
+}
